@@ -164,7 +164,7 @@ export CPPPATH="$INCLUDE_PATH"
 
 echo "-----> Installing fibers with npm"
 
-run_npm "install fibers -g"
+run_npm "install fibers@1.0.1 -g"
 echo "Fibers installed" | indent
 
 echo "-----> Installing meteorite with npm"
